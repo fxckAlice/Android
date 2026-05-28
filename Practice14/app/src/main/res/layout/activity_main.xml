@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/frame1"/>
+
+    <Button
+        android:id="@+id/startFrameAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запустити Frame Animation"/>
+
+    <Button
+        android:id="@+id/startRotateAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запустити Rotate Animation"/>
+
+    <Button
+        android:id="@+id/startScaleAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запустити Scale Animation"/>
+
+</LinearLayout>
