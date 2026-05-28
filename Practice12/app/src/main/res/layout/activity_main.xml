@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дані акселерометра"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/xText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/yText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y:"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/zText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z:"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/sensorListText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Список сенсорів:"
+        android:textSize="16sp"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>
