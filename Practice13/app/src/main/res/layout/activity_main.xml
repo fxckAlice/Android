@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"/>
+
+        <Button
+            android:id="@+id/playVideoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Відтворити відео"/>
+
+        <Button
+            android:id="@+id/playAudioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Відтворити аудіо"/>
+
+        <EditText
+            android:id="@+id/speechText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть текст для озвучення"/>
+
+        <Button
+            android:id="@+id/speakButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Озвучити текст"/>
+
+    </LinearLayout>
+</ScrollView>
